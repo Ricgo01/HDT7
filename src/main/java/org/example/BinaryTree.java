@@ -1,7 +1,10 @@
 package org.example;
 
 import org.example.Asociacion;
-
+/**
+ * Clase para implementar un árbol binario de búsqueda (BST).
+ * Esta estructura de datos se utiliza para almacenar y buscar eficientemente las asociaciones de un diccionario.
+ */
 public class BinaryTree {
     private Node root;
 

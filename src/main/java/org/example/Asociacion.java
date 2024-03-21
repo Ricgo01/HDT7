@@ -1,38 +1,42 @@
 package org.example;
+/**
+ * Clase que representa una asociación entre una palabra en inglés y su equivalente en español.
+ * Utilizada como unidad básica de almacenamiento en un árbol binario de búsqueda (BST) para un diccionario Inglés-Español.
+ *
+ * @param <K> Tipo de dato para la palabra en inglés.
+ * @param <V> Tipo de dato para la palabra en español.
+ */
 
 public class Asociacion <K, V> {
-    private K key; // La palabra en inglés
-    private V value; // La traducción al español
+    private K key;
+    private V value;
 
-    // Constructor que inicializa la asociación con su clave y valor
+    /**
+     * Constructor para crear una asociación.
+     *
+     * @param key   La palabra en inglés.
+     * @param value La palabra en español correspondiente.
+     */
     public Asociacion(K key, V value) {
         this.key = key;
         this.value = value;
     }
 
-    // Método para obtener la clave (palabra en inglés)
+    /**
+     * Obtiene la palabra en inglés de esta asociación.
+     *
+     * @return La palabra en inglés.
+     */
     public K getKey() {
         return key;
     }
 
-    // Método para obtener el valor (traducción al español)
+    /**
+     * Obtiene la palabra en español de esta asociación.
+     *
+     * @return La palabra en español.
+     */
     public V getValue() {
         return value;
-    }
-
-    // Método para establecer la clave (palabra en inglés)
-    public void setKey(K key) {
-        this.key = key;
-    }
-
-    // Método para establecer el valor (traducción al español)
-    public void setValue(V value) {
-        this.value = value;
-    }
-
-    // Método toString para mostrar la asociación en un formato legible
-    @Override
-    public String toString() {
-        return "(" + key + " " + value + ")";
     }
 }

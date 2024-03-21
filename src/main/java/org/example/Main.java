@@ -3,8 +3,20 @@ package org.example;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
-
+/**
+ * Clase principal que contiene el método main para ejecutar el programa del diccionario.
+ * Permite al usuario cargar un diccionario Inglés-Español y realizar traducciones de texto.
+ * Ricardo Arturo Godinez Sanchez
+ * 23247
+ * 21/03/2024
+ */
 public class Main {
+
+    /**
+     * Punto de entrada principal del programa.
+     *
+     * @param args Argumentos de línea de comandos (no utilizados).
+     */
     public static void main(String[] args) {
         BinaryTree dictionary = new BinaryTree();
         loadDictionary(dictionary, "diccionario_comas.txt");
@@ -37,6 +49,14 @@ public class Main {
         scanner.close();
     }
 
+    /**
+     * Carga las asociaciones de palabras del archivo de diccionario al árbol binario de búsqueda.
+     * Cada línea del archivo debe contener una asociación en el formato (palabra en inglés, palabra en español).
+     *
+     * @param dictionary El árbol binario de búsqueda en el que se cargarán las asociaciones.
+     * @param fileName   El nombre del archivo que contiene las asociaciones de palabras.
+     */
+
     private static void loadDictionary(BinaryTree dictionary, String fileName) {
         try {
             Scanner fileReader = new Scanner(new File(fileName));
@@ -54,6 +74,14 @@ public class Main {
         }
     }
 
+    /**
+     * Solicita al usuario que ingrese una frase en inglés y la traduce al español, palabra por palabra.
+     * Las palabras no encontradas en el diccionario se devuelven en inglés y encerradas entre asteriscos.
+     *
+     * @param dictionary El árbol binario de búsqueda que se utiliza para la traducción.
+     * @param scanner    El scanner que se utiliza para leer la entrada del usuario.
+     */
+
     private static void translateUserInput(BinaryTree dictionary, Scanner scanner) {
         System.out.println("Por favor, ingresa una frase en inglés para traducir:");
         String inputLine = scanner.nextLine();
@@ -65,6 +93,13 @@ public class Main {
         System.out.println(); // Nueva línea al final de la traducción
     }
 
+    /**
+     * Lee un archivo de texto en inglés y traduce su contenido al español, palabra por palabra.
+     * Las palabras no encontradas en el diccionario se devuelven en inglés y encerradas entre asteriscos.
+     *
+     * @param dictionary El árbol binario de búsqueda que se utiliza para la traducción.
+     * @param fileName   El nombre del archivo de texto en inglés para traducir.
+     */
     private static void translateText(BinaryTree dictionary, String fileName) {
         try {
             Scanner fileReader = new Scanner(new File(fileName));
