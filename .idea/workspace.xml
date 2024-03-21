@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ab0205d2-7cc1-4ca2-b9b8-aa0fdcd0751e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="ab0205d2-7cc1-4ca2-b9b8-aa0fdcd0751e" name="Changes" comment="Creacion del proyecto" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,9 +24,12 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "C:/Users/richi/IdeaProjects/HDT7/src/main/java/org/example/Main.java"
   }
@@ -42,7 +43,39 @@
       <option name="presentableId" value="Default" />
       <updated>1711055847714</updated>
     </task>
+    <task id="LOCAL-00001" summary="Creacion del proyecto">
+      <option name="closed" value="true" />
+      <created>1711055888390</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1711055888390</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Creacion del proyecto">
+      <option name="closed" value="true" />
+      <created>1711055900473</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1711055900473</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Creacion del proyecto" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creacion del proyecto" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
