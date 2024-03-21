@@ -1,0 +1,11 @@
+
+(house, casa)
+(dog, perro)
+(homework, tarea)
+(woman, mujer)
+(town, pueblo)
+(yes, si)
+(cat, gato)
+(in, en)
+(the, el)
+(happy, feliz)
