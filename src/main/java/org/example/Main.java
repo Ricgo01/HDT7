@@ -37,7 +37,7 @@ public class Main {
                 translateUserInput(dictionary, scanner);
                 break;
             case 2:
-                System.out.print("Ingresa el nombre del archivo de texto: ");
+                System.out.print("Ingresa el nombre del archivo de texto agrega .txt al final: ");
                 String fileName = scanner.nextLine();
                 translateText(dictionary, fileName);
                 break;
